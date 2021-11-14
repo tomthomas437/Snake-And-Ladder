@@ -7,7 +7,7 @@ public class SnakeAndLadder {
 		final int ladder = 1;
 		final int snake = 2;
 		int option;
-		int roll = 0;
+		int total_roll = 0;
 
 		System.out.println("Player starting position is: " + player_pos);
 		
@@ -37,9 +37,9 @@ public class SnakeAndLadder {
 		            System.out.println(" No play.");
 	   }
 		  System.out.println(" Current position is: " + player_pos);
-		  roll ++;
+		  total_roll ++;
 }
-		System.out.println(" Congratulations. You have won the game in " + roll + " rolls");
+		System.out.println(" Congratulations. You have won the game in " + total_roll + " rolls");
 }
 }
 
